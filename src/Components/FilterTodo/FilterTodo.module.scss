@@ -1,0 +1,14 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Filter input {
+  width: 100%;
+}
+
+.Filter span {
+  align-self: flex-start;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+$primary-color: #3C5898;
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Architects Daughter', cursive;
+}
+
+input[type=text] {
+  outline: none;
+  border: 1px solid	#29487D;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+@mixin btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #3C5898;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  max-width: 100px;
+  &:hover {
+    background-color: #29487D;
+  }
+}
+
+.App {
+  width: 60%;
+  margin: 100px auto;
+  border: 2px solid	#29487D;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.App h1 {
+  margin-bottom: 10px;
+}
