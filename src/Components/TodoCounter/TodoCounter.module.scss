@@ -1,0 +1,13 @@
+.Counter {
+  display: flex;
+  justify-content: space-between;
+
+  & div {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px;
+  }
+}

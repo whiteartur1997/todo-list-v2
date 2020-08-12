@@ -19,6 +19,9 @@
   &.done {
     background-color: #9CB2CE;
   }
+  &.hidden {
+    display: none;
+  }
 
   & div {
     display: flex;
