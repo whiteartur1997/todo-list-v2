@@ -10,11 +10,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tasks: [
-        { id: 1, text: "Make todo", done: false },
-        { id: 2, text: "Learn debugger", done: false },
-        { id: 3, text: "Be the best", done: false },
-      ],
+      tasks: [],
       modal: {
         isOpen: false
       }

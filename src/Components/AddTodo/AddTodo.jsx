@@ -7,8 +7,10 @@ const AddTodo = props => {
     <div className={styles.Add}>
       <input type="text" ref={inputValue} />
       <button onClick={() => {
-        props.add(inputValue.current.value);
+        if(inputValue.current.value.length > 0) {
+          props.add(inputValue.current.value);
         inputValue.current.value = "";
+        }
       }}>Add task</button>
     </div>
   )
